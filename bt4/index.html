@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form__group">
+        <h1> tính diện tích chu vi hình chữ nhật</h1>
+        <div class="form__group">
+            <p>nhập chiều dài </p>
+            <input id="chieudai" class="form__control w-25" />
+            <br>
+            <div class="form__gropu">
+                <p>nhập chiều rộng</p>
+            <input id="chieurong" class="form__controln w-25">
+            </div>
+            <br>
+            <button onclick="tinh()" id="btnTinh" class="btn btnTinh">Tính</button>
+            <br>
+            <div class="mt-2 alert alert-success">
+                kết quả chu vi: <span id="chuvi"></span>
+            </div>
+            <br>
+            <div class="mt-2 alert alert-success">
+                kết quả diện tích: <span id="dientich"></span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script  src="./index.js"></script>
+</body>
+</html>
